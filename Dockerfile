@@ -9,4 +9,4 @@ COPY app/ ./app/
 
 EXPOSE 8050
 
-CMD gunicorn --workers=2 --bind 0.0.0.0:${PORT:-8050} app.main:server
+CMD gunicorn --workers=1 --timeout 120 --bind 0.0.0.0:${PORT:-8050} app.main:server
