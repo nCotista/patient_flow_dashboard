@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+.Python
+venv/
+.venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Environment & secrets
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Real / sensitive MIMIC data (never commit raw CSVs)
+*.csv
+data/csv_hosp/
+data/csv_icu/
+
+# Misc
+*.log
+temp/
