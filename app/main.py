@@ -10,9 +10,11 @@ app = dash.Dash(
 )
 server = app.server  # required for Gunicorn
 
-# Import to register layout and callbacks with the app instance
-from . import layout    # noqa: E402, F401
-from . import callbacks  # noqa: E402, F401
+from .layout import register_layout      # noqa: E402
+from .callbacks import register_callbacks  # noqa: E402
+
+register_layout(app)
+register_callbacks(app)
 
 if __name__ == "__main__":
     app.run(debug=False, host="0.0.0.0", port=8050)
