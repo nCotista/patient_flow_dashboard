@@ -9,7 +9,7 @@
 This project is submitted as part of the coursework for:
 
 **ELEMENTARY DATA LITERACY 2301266**  
-Department of Computer Science, Faculty of Science  
+Department of Mathematics and Computer Science, Faculty of Science  
 Chulalongkorn University
 
 ---
