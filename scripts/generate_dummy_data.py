@@ -97,7 +97,7 @@ for _ in range(N_ADMISSIONS):
     )
     journey.extend(main_units)
 
-    # Occasionally add a step-down / intermediate unit
+    # Occasionally add a step-down  /  intermediate unit
     if random.random() < 0.25:
         journey.append(random.choice(["Neuro Intermediate", "Surgical Intermediate"]))
 

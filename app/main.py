@@ -8,7 +8,7 @@ app = dash.Dash(
     external_stylesheets=EXTERNAL_STYLESHEETS,
     suppress_callback_exceptions=True,
 )
-server = app.server  # required for Gunicorn
+server = app.server  # required for  Gunicorn
 
 from .layout import register_layout      # noqa: E402
 from .callbacks import register_callbacks  # noqa: E402
